@@ -1,0 +1,160 @@
+
+
+/* 
+    Document   : main
+    Created on : 17-Feb-2013, 16:29:47
+    Author     : ali
+    Description:
+        This file is for the stuff that is on every page. The main blocks
+        on the page, and the overall look of things.
+*/
+
+/*
+ * This is the main page stuff. The divs, fonts, colours etc.
+ */
+
+root { 
+    display: block;
+}
+
+body{
+    background-color: #DAE5EA;
+    font-family: 'Merriweather', serif;
+}
+
+#container{
+    width:100%;
+}
+
+#header{
+    height:50px;
+    margin-left:-8px;
+    margin-right:-8px;
+    margin-top: -10px;
+    padding:0 15%;
+    padding-bottom: 20px;
+    background:#000000;
+    color: #ffffff;
+}
+
+#main{
+    margin-left:0px;
+    width:70%;
+    margin:30px auto;
+}
+
+#login, #useraccount{
+    background:#736F6E;
+    width:30%;
+    max-width:200px;
+    position:absolute;
+    right:15%;
+    margin-top:50px;
+    margin-right:-2px;
+    padding:10px;
+    display:none;
+    border-radius: 8% 0 8% 8%;
+}
+
+#login input{
+    width:90%;
+    float:right;
+    clear:right;
+    margin-top:2px;
+    margin-right:5%;
+}
+
+#login p{
+    width:39%;
+    float:left;
+    clear:left;
+    margin-top:2px;
+}
+
+#useraccount p{
+    text-align: right;
+    width:100%;
+    float:right;
+}
+
+p#myaccountp{
+    display:block;
+    float:right;
+    padding:7px;
+    cursor:pointer;
+}
+
+/*
+ * Links, titles and stuff
+ */
+
+h1 a, #account a{
+    text-decoration:none;
+    color: #ffffff;
+}
+
+h1{
+    margin-left: 10px;
+    margin-top: 17px;
+}
+
+a.none{
+    text-decoration: none;
+    color: #000000;
+}
+
+#title{
+    width:70%;
+    float:left;
+}
+
+#account{
+    float:right;
+}
+
+ul{
+    list-style-type: none;
+}
+
+div#userAccount{
+    width:100%;
+    max-width:400px;
+}
+
+div#userAccount input{
+    
+    float:right;
+    clear:right;
+}
+
+div#userAccount input.text{
+    width:40%;
+}
+
+div#userAccount p.label{
+    float: left;
+    clear:left;
+    width:40%;
+    margin:2px;
+}
+
+input.incorrect{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ff3300;
+}
+
+input.correct{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #339900;
+}
+
+div#image{
+    margin:auto;
+    width:75%;
+}
+
+img.indexImg{
+    max-width: 100%;
+}

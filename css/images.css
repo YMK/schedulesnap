@@ -1,0 +1,46 @@
+/* 
+    Document   : images
+    Created on : 10-Mar-2013, 15:46:33
+    Author     : ali
+    Description:
+        This is mainly for the images in the new rota page, but for any
+        other images that crop up.
+*/
+
+
+/*
+ * Images for the new rota page.
+ */
+
+img.rotaImg{
+    width:100%;
+}
+
+div.leftImage{
+    float:left;
+    clear:left;
+    width:45%;
+}
+
+div.rightImage{
+    float:right;
+    clear:right;
+    width:45%;
+}
+
+div.rightImage p, div.leftImage p{
+    margin-bottom:auto;
+    width:100%;
+    text-align: center;
+}
+
+/*
+ * Also for the new rota page, but not actually an image.
+ */
+
+div#breaker{
+    width:100%;
+    height:10px;
+    float:left;
+    clear:both;
+}

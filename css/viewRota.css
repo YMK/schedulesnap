@@ -1,0 +1,122 @@
+/* 
+    Document   : viewRota
+    Created on : 10-Mar-2013, 15:43:25
+    Author     : Alistair McKinlay
+    Description:
+        This is specific to the viewRota page.
+*/
+
+
+
+/*
+ * The actual table.
+ */
+
+table#blockRota{
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+table#blockRota, table#blockRota td, table#blockRota tr{
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    margin: 2px;
+    padding:10px;
+}
+
+table#blockRota td{
+    width:200px;
+}
+
+table#blockRota td.hover{
+    border-style: dashed;
+    border-color: red;
+    background: yellow;
+}
+
+table#blockRota{
+    float:left;
+}
+
+
+/*
+ * Editing elemnts of the table.
+ */
+
+ 
+
+td#addBlock{
+    display:none;
+    text-decoration: none;
+}
+
+td#addStrip{
+    display:none;
+    text-decoration: none;
+}
+
+a#edit{
+    float:left;
+}
+
+
+span.delete{
+    display:none;
+}
+ 
+/*
+ * The div for the table, allows scrolling of the table.
+ */
+
+#table{
+    width:100%;
+    float:left;
+    clear:left;
+    overflow:auto;
+}
+
+
+/*
+ * The user list.
+ */
+
+div#userlist{
+    width:30%;
+    max-width: 180px;
+    float:right;
+    clear:none;
+}
+
+p.username{
+    display:block;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    padding: 5px;
+    cursor: move;
+}
+
+ul#userAccount{
+    width:70%;
+    float:left;
+}
+
+ul#userAccount li{
+    width:100%;
+    margin-bottom:2px;
+}
+
+ul#userAccount *{
+    float:left;
+    clear:left;
+}
+
+ul#userAccount input{
+    float:right;
+    clear:right;
+}
+
+input#userSearch{
+    width:99%;
+}
