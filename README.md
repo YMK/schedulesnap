@@ -1,4 +1,10 @@
+Schedule Snap
+=====================
+A generic timetabling web application.
+
 Installation guide
+-------------------------
+
 1. Download the files
 2. Move to a directory that is accessible from the web server
 3. Make sure the files are readable by the web server user
